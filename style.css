@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+html{
+    font-size: 16px;
+}
+#maincontainer{
+    border: 2px solid black;
+    width: 350px;
+    margin: 20px auto;
+    padding: 7px;
+    
+
+}
+.bold{
+    font-weight: 800;
+    text-align: center;
+    margin-top: -2px;
+}
+#one{
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+    margin-top: -20px;
+}   
+p{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+#largedivider{
+    background-color: black;
+    border: 0;
+    height: 10px;
+}
+#amount{
+    font-size: 0.85rem;
+}
+#calorie{
+    margin: -5px -2px;
+    font-size: 2em;
+    font-weight: 700
+}
+#middivider{
+    height: 5px;
+    background-color: black;
+}
+#headvalue{
+    justify-content: flex-end;
+    font-weight: 800;
+    margin: 0;
+    display: flex;
+}
+.commondivider{
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+}
+.bold2{
+    font-weight: 800;
+}
+.commondivider p{
+    display: flex;
+}
+.indent {
+    margin-left: 1em;
+}
